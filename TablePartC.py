@@ -12,7 +12,7 @@ for row in reader:
     i = i + 1
     print(row)
     table.put(row[0],
-        {'personal:name': row[1],
+        {'personal:hero': row[1],
          'personal:power': row[2],
          'professional:name': row[3],
          'professional:xp': row[4],
