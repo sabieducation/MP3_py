@@ -4,7 +4,7 @@ conn = hb.Connection()
 table = conn.table('powers')
 
 row = table.row(b'row1')
-value1 = row[b'personal:hero']
+value1 = row[personal:hero]
 value2 = row[b'personal:power']
 value3 = row[b'professional:name']
 value4 = row[b'professional:xp']
