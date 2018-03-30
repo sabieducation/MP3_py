@@ -10,7 +10,7 @@ table = conn.table('powers')
 i = 0
 for row in reader:
     i = i + 1
-    print(row)
+    #print(row)
     table.put(row[0],
         {'personal:hero': row[1],
          'personal:power': row[2],
